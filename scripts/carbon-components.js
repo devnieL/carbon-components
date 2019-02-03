@@ -11109,7 +11109,7 @@ var CarbonComponents = (function (exports) {
    * LICENSE file in the root directory of this source tree.
    */
 
-  var defaultComponents = /*#__PURE__*/Object.freeze({
+  var components = /*#__PURE__*/Object.freeze({
     Checkbox: Checkbox,
     FileUploader: FileUploader,
     FabButton: fab,
@@ -11154,7 +11154,7 @@ var CarbonComponents = (function (exports) {
    * This source code is licensed under the Apache-2.0 license found in the
    * LICENSE file in the root directory of this source tree.
    */
-  var components = defaultComponents;
+  var components$1 = components;
   /**
    * Instantiates components automatically
    * by searching for elements with `data-component-name` (e.g. `data-loading`) attribute
@@ -11164,8 +11164,8 @@ var CarbonComponents = (function (exports) {
    */
 
   var init = function init() {
-    var componentClasses = Object.keys(components).map(function (key) {
-      return components[key];
+    var componentClasses = Object.keys(components$1).map(function (key) {
+      return components$1[key];
     }).filter(function (component) {
       return typeof component.init === 'function';
     });
@@ -11248,8 +11248,8 @@ var CarbonComponents = (function (exports) {
       throw new TypeError('DOM document or DOM element should be given to watch for DOM node to create/release components.');
     }
 
-    var componentClasses = Object.keys(defaultComponents).map(function (key) {
-      return defaultComponents[key];
+    var componentClasses = Object.keys(components).map(function (key) {
+      return components[key];
     }).filter(function (component) {
       return typeof component.init === 'function';
     });
