@@ -13,7 +13,7 @@ demo/component
 demo/hot
 !demo/index.js
 !demo/components.js
-dist
+#dist
 
 # OSX
 .DS_Store
@@ -32,13 +32,13 @@ tests/a11y-results
 tests/coverage
 
 # built files
-/es
-/umd
-/scripts
-/css/**
-/scss
-/html
-/docs/js
+#es
+#umd
+#scripts
+#css/**
+#scss
+#html
+#docs/js
 
 # a11y testing
 .aat.yml
