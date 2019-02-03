@@ -1,5 +1,5 @@
 {
-  "name": "carbon-components",
+  "name": "@devniel/carbon-components",
   "description": "Carbon Components is a component library for IBM Cloud",
   "homepage": "http://carbondesignsystem.com/",
   "version": "7.2.1",
@@ -7,10 +7,10 @@
   "main": "umd/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/IBM/carbon-components.git"
+    "url": "https://github.com/devniel/carbon-components.git"
   },
   "bugs": {
-    "url": "https://github.com/IBM/carbon-components/issues"
+    "url": "https://github.com/devniel/carbon-components/issues"
   },
   "keywords": [
     "carbon",
@@ -229,24 +229,8 @@
   },
   "maintainers": [
     {
-      "name": "Mari Johannessen",
-      "email": "mjohannessen@us.ibm.com"
-    },
-    {
-      "name": "TJ Egan",
-      "email": "twegan@us.ibm.com"
-    },
-    {
-      "name": "Akira Sudoh",
-      "email": "asudoh@jp.ibm.com"
-    },
-    {
-      "name": "Alison Joseph",
-      "email": "alison.joseph@us.ibm.com"
-    },
-    {
-      "name": "Alessandra Davila",
-      "email": "aledavila@us.ibm.com"
+      "name": "Daniel Flores",
+      "email": "dnielfs@gmail.com"
     }
   ],
   "eyeglass": {
